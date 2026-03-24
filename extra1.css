@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.background {
+    height: 100%;
+    background: linear-gradient(90deg, #f26522, #ff7e2f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-box {
+    background: #eee;
+    padding: 30px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.subtitle a {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+    color: white;
+    padding: 3px 7px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.input-group .icon {
+    background: #ff5c4d;
+    color: white;
+    padding: 10px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.eye {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff5c4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #e14a3d;
+}

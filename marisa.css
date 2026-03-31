@@ -79,28 +79,25 @@ body{
     float: left;
     width: 100%;
     height: 145px;
-    background: yellow;
+    background: white;
 }
 .menu_box{
     position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 145px;
-    background: purple;
 }
 .menu_box_1{
     position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 85px;
-    background: pink;
 }
 .menu_box_2{
-     position: relative;
+    position: relative;
     margin: 0 auto;
     width: 1024px;
     height: 60px;
-    background: red;
 }
 .menu_box_1_logo, .menu_box_1_pesq, .menu_box_1_entre, .menu_box_1_car{
     position: relative;
@@ -113,14 +110,15 @@ body{
     background: white;
 }
 .menu_box_1_pesq{
-    background: yellow;
+    background: white;
 }
 .menu_box_1_entre{
-    background: purple;
-}
-.menu_box_1_car{
-    background: grey;
-}
+    background-image: url("images/user_icon.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}   
+
 .img_logo2{
     float: left;
     height: 45px;
@@ -149,4 +147,84 @@ body{
 }
 .menu_box_1_pesq form{
     padding:26px 0px;
+}
+.link_entre{
+    text-decoration: none; 
+    font-family: arial;
+    font-size: 15px;
+    color: grey;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+}  
+.box_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 50px;
+    height: 85px;
+    background-image: url(images/icon_bolsa.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+
+}
+.box_car span{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    background: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+    float: left;
+}
+.box_texto_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 206px;
+    height: 85px;
+    padding: 27.5px 0px;
+}
+  
+.box_texto_car label{
+    font-family: arial;
+    font-size: 15px;
+    color: #666;
+    display: block;
+}
+
+.mn2{
+    font-family: arial;
+    font-size: 15px;
+    color: #444;
+    padding: 10px 20px;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mn2:hover{
+    color: #ff009c;
+}
+.frete{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background: #272526;
+}
+
+.banner{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 847px;
+    background-image: url("images/baner.gif");
+    background-position: center center; 
+    background-repeat: no-repeat;
 }

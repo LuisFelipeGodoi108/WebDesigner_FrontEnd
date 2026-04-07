@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background:white;
+    background: white;
 }
 
 .top_cupom{
@@ -224,10 +224,11 @@ body{
     float: left;
     width: 100%;
     height: 847px;
-    background-image: url("Images/20260401-HOMEPAGE-ROTATIVO-DESKTOP-P01-ESQUENTA0404.gif");
+    background-image: url("images/baner.gif");
     background-position: center center; 
     background-repeat: no-repeat;
 }
+
 .frete_gratis,
 .pag_fatura,
 .compre_site,
@@ -235,16 +236,19 @@ body{
     width: 25%;
     height: 100px;
     float: left;
+    background: #efefef;
 }
 .frete_gratis{
     position: relative;
     margin: 0 auto;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .pag_fatura{
     position: relative;
@@ -273,3 +277,211 @@ body{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.navcateg_box{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+
+    height: auto;
+    background: #fff;
+    text-align: center;
+}
+
+.navcateg_img{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 9.1%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
+}
+.rodape{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.rodape_box1, .rodape_box2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: 200px;
+   
+}
+
+.rodape_box1{
+    background-color: yellow;
+}
+
+.rodape_box2{
+    background-color: #fff;
+}
+
+
+
+.rodape_novidades{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 200px;
+    background-color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nov1,.nov2{
+    position: relative;
+    margin: 0 auto;
+    width: 512px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.nov1 label{
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px ;
+
+}
+.nov1 button{
+    padding: 8px 10px;
+    font-size:18px;
+    background-color: #ff009c;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nov1 hover{
+    background-color: #ff009c;
+}
+
+
+.nov2 a{
+    text-decoration: none;
+padding: 0px 10px;
+}
+
+.menu_col1{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 180px;
+    height: auto;
+}
+
+.menu_col2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 250px;
+    height: auto;
+    text-align: center;
+
+}
+.sub_tit1{
+    font-size: 16px;
+    color:#ff009c;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.link_menu{
+    font-size: 16px;
+    color:#999;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.link_menu:hover{
+    background-color:#ff009c;
+}
+
+.menu_col2{
+    font-size: 16px;
+    color:#666;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.link_ajuda, .link_lojas{
+    padding: 10px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-decoration: none;
+    color: #999;
+    margin: 10px 0px
+}
+
+
+.link_ajuda{
+    background-image: url(images/ico_ajuda.png);
+}
+
+.link_lojas{
+    background-image: url(images/ico_localizacao_cinza.png);
+}
+
+.box3_selos{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background: greenyellow;
+}
+
+.opc3_selos{
+    font-size:16px;
+    font-weight: bold;
+    color: #666;
+    line-height: 80px;
+    float: left;
+    padding: 10px 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+
+
+}
+
+.opc3_selos{
+    background-image: url(images/ico-seguranca-.png);
+}
+
+.box3_selos img{
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+

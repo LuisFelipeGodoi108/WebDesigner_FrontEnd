@@ -33,7 +33,7 @@
 
             <input type="submit" value="Entrar" class="bt_entrar" />
 
-            <b> Ainda não tem um cadastro? <a href=""> Crie sua conta</a></b>
+            <b> Ainda não tem um cadastro? <a href="cadastro.php"> Crie sua conta</a></b>
 
         </form>
     </div>    

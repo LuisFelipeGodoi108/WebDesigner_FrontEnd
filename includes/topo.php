@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style type="text/css">@import url("marisaJan.css");</style>
-
-    <title>Marisa - Seja bem vindo ao nosso site!</title>
-</head>
-<body>
-    <!-- Inicio - Publicidade do Cupom de Desconto -->
+<!-- Inicio - Publicidade do Cupom de Desconto -->
     <div class="top_cupom">
         <img src="images/Faixa-20251208-APP10-Desktop.gif" alt="Desconto 10% OFF" />
     </div>
@@ -45,7 +34,7 @@
                     </form>
                 </div>
                 <div class="menu_box_1_entre">
-                    <a href="" class="link_entre">Entre ou cadastre-se</a>
+                    <a href="login.php" class="link_entre">Entre ou cadastre-se</a>
                 </div>
                 <div class="menu_box_1_car">
                     <div class="box_car">
@@ -72,3 +61,4 @@
         </div>
     </div>
     <!-- Fim - Menu Principal (Logo, Pesquisa, Entre ou cadastre-se, Carrinho de compras) -->
+    

@@ -1,223 +1,254 @@
-/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.cadastro{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* BODY */
-body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  color: #333;
+.cadastro_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
 }
 
-/* CONTAINER */
-.container {
-  width: 1100px;
-  margin: 40px auto;
-  background: #fff;
-  padding: 30px;
+.cadastro_box1, .cadastro_box2{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 500px;
+    height: auto;
 }
 
-/* TITULOS */
-h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
+.cadastro_box1{
+    margin-right: 24px;
 }
 
-p {
-  font-size: 13px;
-  color: #777;
-  margin-bottom: 20px;
+.form1, .form2{
+    width: 500px;
 }
 
-/* TIPO PESSOA */
-.tipo-pessoa {
-  display: flex;
-  gap: 30px;
-  margin-bottom: 25px;
+.form1 h3{
+    font-size: 20px;
 }
 
-/* GRID */
-.form-grid {
-  display: flex;
-  gap: 50px;
+.form1 label{
+    font-size: 14px;
 }
 
-.col {
-  flex: 1;
+.box_form{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 500px;
+    height: auto;
+    padding: 15px 0px;
 }
 
-/* LABEL */
-label {
-  display: block;
-  font-size: 13px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+.box_form span{
+    width: 33%;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-/* INPUTS (CORRIGIDO - NÃO AFETA RADIO/CHECKBOX) */
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  height: 38px;
-  padding: 8px 10px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  font-size: 13px;
-  background: #fafafa;
+.inp_radio{
+    accent-color: #ff009c;
 }
 
-input::placeholder {
-  color: #bbb;
+.box_form b{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
 }
 
-/* ROW */
-.row {
-  display: flex;
-  gap: 15px;
+.inp_cad1, .inp_cad2, .inp_cad3, .inp_cad4, .inp_cad5{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 10px;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
 }
 
-.row > div {
-  flex: 1;
+.inp_cad1{
+    width: 480px;
 }
 
-/* RADIO GROUP */
-.radio-group {
-  display: flex;
-  gap: 30px;
-  margin-top: 5px;
+.inp_cad:focus{
+    border-color: #ff009c;
 }
 
-/* RADIO CUSTOM (SEM QUEBRAR LAYOUT) */
-.radio {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  cursor: pointer;
-  font-size: 13px;
+.box_form_nasc, .box_form_cpf, .box_form_ddd1, .box_form_celular, .box_form_ddd2, .box_form_tel{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: auto;
 }
 
-/* ESCONDE ORIGINAL */
-.radio input {
-  display: none;
+.box_form_nasc{
+    width: 130px;
+    margin-right: 20px;
 }
 
-/* BOLINHA */
-.radio span {
-  width: 16px;
-  height: 16px;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  position: relative;
-  transition: 0.2s;
+.inp_cad2{
+    width: 110px;
 }
 
-/* HOVER */
-.radio:hover span {
-  border-color: #e6007e;
+.box_form_cpf{
+    width: 350px;
 }
 
-/* CENTRO */
-.radio span::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #e6007e;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 0.2s;
+.inp_cad3{
+    width: 330px;
 }
 
-/* CHECKED */
-.radio input:checked + span {
-  border-color: #e6007e;
+.subtit1{
+    font-size: 16px !important;
+    margin-bottom: 10px;
 }
 
-.radio input:checked + span::after {
-  transform: translate(-50%, -50%) scale(1);
+.box_form_ddd1, .box_form_ddd2{
+    width: 50px;
+    margin-right: 20px;
 }
 
-/* BOTÃO TOKEN */
-.btn {
-  width: 100%;
-  height: 42px;
-  margin: 20px 0 10px;
-  background: #9e9e9e;
-  border: none;
-  color: white;
-  font-size: 13px;
-  font-weight: bold;
-  cursor: pointer;
+.inp_cad4{
+    width: 30px;
 }
 
-/* HOVER */
-.btn:hover {
-  background: #7d7d7d;
+.box_form_celular, .box_form_tel{
+    width: 170px;
 }
 
-/* TEXTO TOKEN */
-small {
-  font-size: 12px;
-  color: #777;
+.inp_cad5{
+    width: 150px;
 }
 
-/* SENHA */
-.input-icon {
-  position: relative;
+.box_form_celular{
+    margin-right: 20px;
 }
 
-.input-icon input {
-  padding-right: 35px;
+.bt_token, .bt_finaliza{
+    width: 100% !important;
+    padding: 10px 0px;
+    background: #acabab;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.input-icon i {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #777;
-  cursor: pointer;
+.bt_finaliza{
+    margin-top: 30px;
 }
 
-/* TERMOS */
-.termos {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-top: 25px;
-  font-size: 12px;
-  color: #555;
+.txt_token{
+    font-size: 13px;
+    color: #666666;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+    width: 100%;
+    float: left;
 }
 
-.termos input {
-  width: auto;
-  margin-top: 3px;
+.cadastro_box3{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
+    margin-top: 20px;
 }
 
-.termos a {
-  color: #e6007e;
-  text-decoration: underline;
+.termo_cpf, .termo_cnpj{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 1024px;
+    height: auto;
 }
 
-/* BOTÃO FINAL */
-.btn-final {
-  width: 100%;
-  height: 45px;
-  margin-top: 25px;
-  background: #9e9e9e;
-  color: white;
-  border: none;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
+.termo_cnpj label{
+    display: block;
+    margin-bottom: 10px;
 }
 
-.btn-final:hover {
-  background: #7d7d7d;
+.termo_cnpj span{
+    width: 33%;
+    float: left;
 }
+
+.termo_cnpj input{
+    accent-color: #ff009c;
+}
+
+.cadastro_box3 label{
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.cadastro_box3 a{
+    color:#ff009c;
+}
+
+.box_bt_mostrar{
+    position: absolute;
+    float: left;
+    z-index: 1;
+    cursor: pointer;
+    margin: -32px 0px 0px 465px;
+    width: 35px;
+}
+
+.inp_ck_termos{
+    accent-color: #ff009c;
+}
+
+.box_form_uf{
+    float: left;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.box_form_trib{
+    float: left;
+    width: 310px;
+}
+
+.inp_cad6{
+    width: 150px;
+    padding: 10px 10px;
+}
+
+.inp_cad7{
+    width: 310px;
+    padding: 10px 10px;
+}
+
+.form1_1, .termo_cnpj{
+    display: none;
+}
+
+.inp_cad1:focus, .inp_cad2:focus, .inp_cad3:focus, .inp_cad4:focus, .inp_cad5:focus, .inp_cad6:focus ,.inp_cad7:focus{
+    border: solid 1px #ff009c;
+}
+
+#pass_oculta1{
+    display: none;
+}
+
+#pass_oculta2{
+    display: none;
+}
+

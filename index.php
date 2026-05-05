@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style type="text/css">@import url("marisaJan.css");</style>
-    
+    <style type="text/css">@import url("css/config_ini.css");</style>
+
+    <link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.png" />
 
     <title>Marisa - Seja bem vindo ao nosso site!</title>
 </head>
 <body>
-    
-
     <!-- Inicio - Importa Topo -->
     <?php include("includes/topo.php");?>
     <!-- Fim - Importa Topo -->
-
+    
     <!-- Inicio - Publicidade Frete Grátis -->
     <div class="frete"></div>
     <!-- Fim - Publicidade Frete Grátis -->
@@ -264,11 +263,9 @@
 
     <!-- Fim - Marcas Parceiras -->
 
-
-    
-    <!-- Inicio - Importa rodape -->
+    <!-- Inicio - Importa Rodape -->
     <?php include("includes/rodape.php");?>
     <!-- Fim - Importa Rodape -->
 
-
-    
+</body>
+</html>
